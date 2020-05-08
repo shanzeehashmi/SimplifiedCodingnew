@@ -1,0 +1,248 @@
+<html lang="en">
+<!DOCTYPE HTML>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <script src="js/bootstrap.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
+    <title>Win iPhone X | Claim Now To Win </title>
+    <link href="css/style.css" rel="stylesheet">
+
+
+
+
+    <!-- FONT AWESOME CSS -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+<body>
+
+<div class="container-fluid" id="parallax">
+    <div class="row">
+        <div class="col-md-3"/>
+
+        <div class="col-md-6">
+            <h3> <center>  <p style="margin-top: 50%;padding: 20px;" id="demo"/>  </center> </h3>
+        </div>
+
+        <div class="col-md-3"/>
+
+    </div>
+
+    <div class="row" id="first_screen">
+        <div class="col-md-3"></div>
+
+<div class="col-md-6" style="margin-top: 10%">
+    <h2><p style="font-family: Raleway;font-weight:900;text-align: center">Win a Brand new</p></h2>
+    <h1><p style="font-family: Raleway;font-weight:900;text-align: center">iPhone X</p></h1>
+
+    <p style="font-family: Raleway;font-weight:600;text-align: center">Participate in this contest and get a chance to win brand new iPhone X entirely for FREE</p>
+
+</div>
+
+        <div class="col-md-3"></div>
+
+    </div>
+
+
+    <div class="row" id="first_screen">
+
+        <div class="col-md-3"></div>
+
+
+        <div class="col-md-6" style="margin-top: 10%" >
+
+            <center><p id="proceed_button" onclick="show_subscribe()" class="kreep"  style="font-family: Raleway;font-weight:600;text-align: center">Proceed</p></center>
+
+        </div>
+
+        <div class="col-md-3"></div>
+
+    </div>
+
+    <div class="row" id="subscribe_to_channel_div">
+
+
+        <div class="col-md-3" style="margin-top: 10%" >
+
+            <center><p style="font-family: Raleway;font-weight:600;text-align: center">You are very close to win an iPhone, <br>Click on the button below to move to next step</p></center>
+
+        </div>
+
+
+
+        <div class="col-md-6" style="margin-top: 10%" >
+
+            <center><p id="subscribe_button" onclick="show_details_div()" class="kreep"  style="font-family: Raleway;font-weight:600;text-align: center">Subscribe</p></center>
+
+        </div>
+
+        <div class="col-md-3"></div>
+
+    </div>
+
+    <div class="row" id="user_contact_details">
+
+            <div class="col-md-3" style="margin-top: 0%" >
+
+                <center><p style="font-family: Raleway;font-weight:600;text-align: center">Provide your contact details, So that we may contact you</p></center>
+
+            </div>
+
+        <form id="details_form" method="post" action = "success.html">
+
+            <div class="col-md-6" style="margin-top: 10%" >
+
+            <center><p style="font-family: Raleway;font-weight:600;text-align: center">  <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+                <div class="form-group">
+                    <label for="mobile_no">Mobile</label>
+                    <input type="text" class="form-control" id="mobile_no" required>
+                </div>  </p></center>
+
+        </div>
+
+        <div class="col-md-3" style="margin-top: 10%" >
+
+            <center><p  class="kreep"  style="font-family: Raleway;font-weight:600;text-align: center"><input id="next_button" type="submit" value="Next"></p></center>
+
+        </div>
+
+        </form>
+
+        <br><br>
+
+    </div>
+
+
+
+</div>
+
+
+
+
+<script>
+
+    var subs_div = document.getElementById("subscribe_to_channel_div") ;
+    var front_div = document.getElementById("first_screen") ;
+    var pers_details = document.getElementById("user_contact_details") ;
+
+    var proceed_button = document.getElementById("proceed_button");
+    var subs_button = document.getElementById("subscribe_button") ;
+    var next_button = document.getElementById("next_button") ;
+
+    subs_div.style.display = "none" ;
+    pers_details.style.display = "none" ;
+    next_button.style.display = "none" ;
+
+    function show_subscribe() {
+
+            front_div.style.display = "none" ;
+            proceed_button.style.display = "none" ;
+
+            subs_button.style.display = "block" ;
+            subs_div.style.display = "block";
+    }
+
+    function show_details_div() {
+
+        front_div.style.display = "none" ;
+        subs_div.style.display = "none" ;
+
+        proceed_button.style.display = "none" ;
+        subs_button.style.display = "none" ;
+
+        pers_details.style.display = "block" ;
+        next_button.style.display = "block";
+
+    }
+
+</script>
+
+
+
+<script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        var distance = countDownDate - now;
+
+
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Output the result in an element with id="demo"
+        document.getElementById("demo").innerHTML = hours + "h "
+            + minutes + "m " + seconds + "s ";
+
+        // If the count down is over, write some text
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+    }, 1000);
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+
+<script>
+    $(document).ready(function(){
+        // Add smooth scrolling to all links in navbar + footer link
+        $(".topnav a, footer a[href='#myPage']").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 900, function(){
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                   // window.location.hash = hash;
+                });
+            } // End if
+        });
+    })
+</script>
+
+
+
+
+
+<script src="js/scrollReveal.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<!--  Custom Scripts -->
+<script src="js/custom.js"></script>
+
+</body>
+
+</html>
